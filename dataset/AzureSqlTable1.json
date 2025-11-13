@@ -7,6 +7,11 @@
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
-		"schema": []
-	}
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Emp_new"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }
